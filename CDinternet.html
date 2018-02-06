@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="internet.css">
+    <title>The Internet</title>
+</head>
+
+<body>
+    <div class="wrapper">  
+        <!-- Use margin-bottom: negative number to get overhang onto header-->   
+        <img id="cornerImage" class="ib" src="..\Iternet Assignment\images\globe.png">
+            <h1 id="internet">
+                The Inter<span class="blueText">net</span>
+            </h1>
+            <div class="gradientBG"> 
+            <p class="header2">
+                The World Wide Web
+            </p>
+            <!-- Left section -->
+            <div class="leftBox">
+                <p class="blackText"><strong>So, what's an <span class="redText">Internet?</span></strong></p>
+                <p class="smallBlackText"><strong>An <span class="blueText">Inter</span>connected <span class="blueText">Net</span>work of computers all around the world!</strong></p>
+                <p class="button" id="blueButton">WATCH A VIDEO</p>
+                <p class="button" id="orangeButton">MORE RESOURCES</p>
+                <hr>
+                <div id="divAd">
+                    <p>Reinvent your career in just 14 weeks</p>
+                    <img id="ninja" src="..\Iternet Assignment\images\ninja.png">
+                    <p class="button" id="lightBlueButton">Learn More >>></p>
+                </div>
+            </div>
+            <!-- Right section -->
+            <div class="rightBox">
+                <div class="rightBoxHeader">
+                        <img class="dns" src="..\Iternet Assignment\images\home.png">
+                        <p class="dns">DNS</p>
+                        <div id="call">
+                            <img id="phone" src="..\Iternet Assignment\images\phone.png">
+                            <div id="callConnect">
+                            <p class="smallDetails"><strong>Min-Fri 9 a.m. - 5 p.m. (EST)</strong></p>
+                            <p id="phoneNumber"><strong>855.967.3787</strong></p>
+                            <p class="smallDetails"><strong>International +1.617.963.0555</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Clients and Servers</h3>
+                    <p class="tinyText">Computers connected to the <a href="#"><strong>Web</strong></a> are called <strong>clients</strong> and <strong>servers</strong>.</p>
+                    <ul>
+                        <li><a href="#"><strong>Clients</strong></a> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <a href="#"><strong>Web-accessing software</strong></a> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                        <li><a href="#"><strong>Servers</strong></a> are computers that store <a href="#"><strong>webpages</strong></a>, <a href="#"><strong>sites</strong></a>, or <a href="#"><strong>apps</strong></a>. When a client devices wants to access a webage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                    </ul>
+                    <img id="clientServer" src="..\Iternet Assignment\images\client_server.jpg">
+                    <h3>So What Actually Happens?</h3>
+                    <ol>
+                        <li>The broswer goes to the <a href="#">DNS server</a> and finds the real address of the <a href="#">server</a> that the website lives on.</li>
+                        <li>The browser sends an <a href="#">HTTP request</a> message to the server asking it to send a copy of the website to the client.</li>
+                        <li>If the server approves the client's request, te server sends the client a <a href="#">"200 OK" message</a>, which means "Permission greanted! Here you go!", and then starts sending the websit's files to the browser as a series of small chunks.</li>
+                        <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                    </ol>
+                    <div id="footer">
+                        <img id="footerPic" src="..\Iternet Assignment\images\html.png">
+                        <div class="footerText">
+                        <h3 class="ib">The Big 3 - HTML, CSS, JavaScript</h3>
+                        <p class="tinyText">While the server can process information in many different languages, the file that they serve to the client are <i>always</i> going to be some combonation of HTML, CSS, and JavaScript!</p>
+                        <p class="tinyText">Learn more about the Big 3 <a href="#">here</a>!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script src="jQuery.js"></script>
+</body>
+
+</html>
